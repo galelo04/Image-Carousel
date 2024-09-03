@@ -60,4 +60,5 @@ const imageSliderManager = (function () {
     }
   };
   init();
+  setInterval(next, 5000);
 })();
