@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    .currentSlide{
+        width: 1000px;
+        height: 600px;
+        border: 2px solid black;
+        border-radius: 1rem;
+    }
+}
+.imagesContainer{
+    display: flex;
+    overflow: hidden;
+}
+.image{
+    min-width: 1000px;
+    height: 600px;
+}
+.hidden{
+    display: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius:1rem ;
+}
+.dots{
+    display: flex;
+    gap: 4px;
+    .dot{
+        width:2rem;
+        height: 2rem;
+        background-color: lightblue;
+        border-radius: 2rem;
+    }
+}
+.current.dot{
+    background-color: rgb(47, 47, 228);
+}
